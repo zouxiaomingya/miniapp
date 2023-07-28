@@ -1,0 +1,67 @@
+{
+  "pages": [
+    {
+      "path": "pages/index",
+      "style": {
+        "mp-alipay": {
+          "transparentTitle": "always",
+          "titlePenetrate": "YES"
+        },
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/main/my2/index",
+      "style": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "发票"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#565df6",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "首页",
+        "iconPath": "static/images/tabbar/home.png",
+        "selectedIconPath": "static/images/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/main/my2/index",
+        "text": "发票",
+        "iconPath": "static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "iNanChang",
+    //支付宝小程序不要设置这个
+    //#ifndef MP-ALIPAY
+    "navigationBarBackgroundColor": "#F8F8F8",
+    //#endif
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  },
+  "subPackages": [
+    {
+      "root": "pages/sub",
+      "name": "合并分包",
+      "pages": [
+        {
+          "path": "login/index",
+          "style": {
+            "navigationBarTitleText": "登录"
+          }
+        }
+      ]
+    }
+  ]
+}

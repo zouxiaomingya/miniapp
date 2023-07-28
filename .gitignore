@@ -1,0 +1,6 @@
+
+unpackage/
+node_modules/
+# wxcomponents/vant/**
+.vscode/
+

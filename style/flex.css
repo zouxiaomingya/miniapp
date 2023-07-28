@@ -1,0 +1,79 @@
+/* flex布局 */
+.uflex,
+.uCenterX,
+.uCenterY,
+.uCenterXY,
+.uBet,
+.uCol,
+.uRow,
+.uS,
+.uE,
+.uL,
+.uG1,
+.uG2,
+.uG3,
+.uG4,
+.uW {
+	display: flex;
+}
+
+.uCenterX {
+	justify-content: center;
+}
+
+.uCenterY {
+	align-items: center;
+}
+
+.uCenterXY {
+	justify-content: center;
+	align-items: center;
+}
+
+.uBet {
+	justify-content: space-between;
+}
+
+.uCol {
+	flex-direction: column;
+}
+
+.uRow {
+	flex-direction: row;
+}
+
+.uS {
+	align-items: flex-start;
+}
+
+.uE {
+	justify-content: flex-end;
+}
+
+.uL {
+	align-items: baseline;
+}
+
+.uG1 {
+	flex: 1;
+}
+
+.uG2 {
+	flex: 2;
+}
+
+.uG3 {
+	flex: 3;
+}
+
+.uG4 {
+	flex: 4;
+}
+
+.uW {
+	flex-wrap: wrap;
+}
+
+.uK{
+  flex-shrink: 0;
+}

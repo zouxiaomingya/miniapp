@@ -1,0 +1,25 @@
+.u-safe-btm {
+	padding-bottom: constant(safe-area-inset-bottom) !important;
+	padding-bottom: env(safe-area-inset-bottom) !important;
+}
+
+.u-safe-m-btm {
+	margin-bottom: constant(safe-area-inset-bottom) !important;
+	margin-bottom: env(safe-area-inset-bottom) !important;
+}
+
+.u-ellipsis-2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.u-ellipsis-1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box; 
+	-webkit-box-orient: vertical; 
+	-webkit-line-clamp: 1;
+}
